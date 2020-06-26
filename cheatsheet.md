@@ -61,7 +61,7 @@ i++; j++;
 
 ``` ^ ``` xor
 
-###### arithmetic operator
+##### arithmetic operators
 
 ``` a * (b+c); ``` grouping
 
@@ -86,3 +86,65 @@ i++; j++;
 ``` x += y``` this will be x = x + y ``` 2 += 5 ``` this equal 7
 
 ``` a && b ``` logical and ``` b || c ``` logical or 
+
+### conditional statements
+
+``` if (condition) {doSomething;} else {doSomethingElse;} ``` if has logical condition, in block {executed if the condition is true} else {in else block, execute if the condition is false}  
+
+```
+if ((age >= 90) && (age < 130)) {
+    hasCorona = true;    
+} else {
+    hasCorona = false;
+}
+```
+
+#### switch statement
+
+```
+switch (someInput) {
+    case "blablabla":
+        bla = "bla"
+        break;
+    case "romromrom":
+        rom = "rom"
+        break;
+    default:
+        eating = "Kebab!";
+}
+```
+
+### loops
+
+for loops:
+```
+for (var = i; i < 10; i++) {
+    document.write(i + "= `{i}`" + "<br />" );
+}
+```
+
+```
+arr = [23,1234,4532,6543,1234,12342453,123,3241];
+var sum = 0;
+for (var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+}
+```
+
+while loop:
+```
+var i = 23;
+while (i < 100) {
+    i *= 2;
+    console.log(i + "<br />");
+}
+```
+
+do while loop:
+```
+var i = 1;
+do {
+    i *= 2;
+    console.log(i + ",");
+} while (i < 2000)
+```
