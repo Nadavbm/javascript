@@ -148,3 +148,49 @@ do {
     console.log(i + ",");
 } while (i < 2000)
 ```
+
+break
+```
+for (var i = 0; i < 100; i ++) {
+    if (i == 42) { break; }
+    document.write(i + ",");
+}
+```
+
+continue 
+```
+for (var j = 23; i < 100; i++) {
+    if (i == 44) { continue; }
+    console.log(i + ",")
+}
+```
+
+### arrays
+
+
+### global functions
+
+
+#### methods
+
+
+### error handling
+
+
+### json
+
+
+### promise
+
+
+### dates
+
+
+### regular expressions
+
+
+### string manipulation
+
+
+
+### math
