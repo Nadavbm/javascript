@@ -1,1 +1,5 @@
-initial readme file
+### javascript
+
+ - install
+ - cheatsheet
+ - directory/readme
