@@ -7,6 +7,31 @@ multi line comment
 */
 ```
 
+### basics
+
+using javascript file in html:
+```
+<script src="filename.js"> ...
+</script>
+```
+
+functions:
+```
+function someFunction(i, j) {
+    return i+j;
+}
+x = someFunction(3,6);
+```
+
+output to file\console:
+```
+console.log("output console message");
+document.write("write something to html");
+alert("output alert box");
+confirm("confirm output for user to choose y/n");
+prompt("What's your hobbies","be3r");
+```
+
 ### variables
 
 ``` 
@@ -166,6 +191,9 @@ for (var j = 23; i < 100; i++) {
 ```
 
 ### arrays
+
+
+### functions
 
 
 ### global functions
