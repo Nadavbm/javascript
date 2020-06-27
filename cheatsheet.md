@@ -190,16 +190,53 @@ for (var j = 23; i < 100; i++) {
 }
 ```
 
-### arrays
+### arrays and methods
 
+##### arrays:
+
+create an array:
+
+```
+var menu = ["Food", "more food!", "Kebab", "Souvlaki"];
+var menu = new Array("Food", "more food!", "Souvlaki")
+```
+
+use - output\addition to the array:
+```
+console.log(menu[3])
+menu[5] = "Kubeh"
+
+for (var i = 0; i < menu.length; i++>) {
+    alert(menu[2] + "Best seller")
+    write.document(menu[i])
+}
+```
+
+##### methods
+
+convert to string: in comma separate in a string; join: join to array; pop: remove last element of the array; psuh: add element to the end of the array;
+pushing elemnt to the end of an array; shift: remove the first element; unshift: add element to the start of an array; splice: remove/many/join element in a defined location in an array;
+slice: slice of elements from the array (in numbers); sort: alphabetically; reverse: array;
+
+```
+menu.toSting();
+menu.join(" - ");
+menu.pop();
+menu.push("Food no more");
+menu[menu.length] = "Falafel";
+menu.shift();
+menu.unshift("Falafel");
+menu.splice(0, 2, "Humus", "Chips");
+menu.slice(0,3);
+menu.sort()
+menu.reverse();
+```
 
 ### functions
 
 
 ### global functions
 
-
-#### methods
 
 
 ### error handling
