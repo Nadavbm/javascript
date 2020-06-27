@@ -86,9 +86,12 @@ REACT_APP_BAR=$DOMAIN/bar
 can use several env files for other use: ```.env.local``` (local overrides), ```.env.production``` (environment specific)
 
 
-##### proxying API requests
+##### backend integration
+
+proxying API requests:
 
 add to ```package.json``` the following field:
 ```
 "proxy": "http://localhost:4000",
 ```
+
